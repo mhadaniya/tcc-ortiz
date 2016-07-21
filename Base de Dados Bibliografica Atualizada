@@ -1,0 +1,1401 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+@Article{Akiyama2010,
+  Title                    = {Design and implementation of high interaction client honeypot for drive-by-download attacks},
+  Author                   = {Akiyama, Mitsuaki and Iwamura, Makoto and Kawakoya, Yuhei},
+  Year                     = {2010},
+  Number                   = {5},
+  Pages                    = {1131--1139},
+  Volume                   = {93},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {IEICE transactions on communications},
+  Owner                    = {fernando},
+  Publisher                = {The Institute of Electronics, Information and Communication Engineers},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Alata2007,
+  Title                    = {Lessons learned from the deployment of a high-interaction honeypot},
+  Author                   = {Alata, Eric and Nicomette, Vincent and Dacier, Marc and Herrb, Matthieu and others},
+  Year                     = {2007},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {arXiv preprint arXiv:0704.0858},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{AlexandreHenriquePicaoHidalgo2015,
+  Title                    = {SEGURANÇA EM REDES: HONEYPOTS E HONEYNETS},
+  Author                   = {Alexandre Henrique Picão Hidalgo, Júlio Cesar Pereira},
+  Year                     = {2015},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Al-Gharabally:2009:WHS:1551950.1551969,
+  Title                    = {Wireless Honeypots: Survey and Assessment},
+  Author                   = {Al-Gharabally, Noor and El-Sayed, Nosayba and Al-Mulla, Sara and Ahmad, Imtiaz},
+  Booktitle                = {Proceedings of the 2009 Conference on Information Science, Technology and Applications},
+  Year                     = {2009},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {45--52},
+  Publisher                = {ACM},
+  Series                   = {ISTA '09},
+
+  Acmid                    = {1551969},
+  Doi                      = {10.1145/1551950.1551969},
+  ISBN                     = {978-1-60558-478-2},
+  Keywords                 = {deception, honeypots, survey, wireless},
+  Location                 = {Kuwait, Kuwait},
+  Numpages                 = {8},
+  Url                      = {http://doi.acm.org/10.1145/1551950.1551969}
+}
+
+@Article{AlissonPuska2014,
+  Title                    = {Caracterização de Tráfego Indesejado em Redes TCP/IP
+Usando um Honeypot de Baixa Interatividade},
+  Author                   = {Alisson Puska, Aldri Santos, Michele Nogueira},
+  Year                     = {2014},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{AmaralAndrade2009,
+  Title                    = {Avaliação experimental do uso de honeypots de baixa interatividade para detecção de ataques em redes de computadores},
+  Author                   = {Leonardo Arruda do Amaral Andrade},
+  School                   = {Universidade Federal do Espírito Santo},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{AndreRicardoAbedGregio2004,
+  Title                    = {DEFESA DO PERÍMETRO DE REDES SEM FIO: PROPOSTA, IMPLEMENTAÇÃO E VALIDAÇÃO DE UMA WIRELESS HONEYNET PARA DETECÇÃO DE INTRUSOS},
+  Author                   = {André Ricardo Abed Grégio, Adriano Mauro Cansian},
+  Year                     = {2004},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@MastersThesis{Andrucioli2005,
+  Title                    = {PROPOSTA E AVALIAÇÃO DE UM MODELO ALTERNATIVO BASEADO EM HONEYNET PARA IDENTIFICAÇÃO DE ATAQUES E CLASSIFICAÇÃO
+DE ATACANTES NA INTERNET},
+  Author                   = {Alexandre Pina Andrucioli},
+  School                   = {Universidade Federal do Rio de Janeiro},
+  Year                     = {2005},
+  Note                     = {Preciso ler essa teste},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{AntonChuvakin2002,
+  Title                    = {“Honeynets: High Value Security Data”},
+  Author                   = {Anton Chuv ak in, Ph.D., GCIA . GCIH},
+  Year                     = {2002},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Antonatos:2007:HNA:1314389.1314398,
+  Title                    = {Honey@Home: A New Approach to Large-scale Threat Monitoring},
+  Author                   = {Antonatos, Spiros and Anagnostakis, Kostas and Markatos, Evangelos},
+  Booktitle                = {Proceedings of the 2007 ACM Workshop on Recurring Malcode},
+  Year                     = {2007},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {38--45},
+  Publisher                = {ACM},
+  Series                   = {WORM '07},
+
+  Acmid                    = {1314398},
+  Doi                      = {10.1145/1314389.1314398},
+  ISBN                     = {978-1-59593-886-2},
+  Keywords                 = {Honey@home, Honeypots, network security, packet forwarding},
+  Location                 = {Alexandria, Virginia, USA},
+  Numpages                 = {8},
+  Url                      = {http://doi.acm.org/10.1145/1314389.1314398}
+}
+
+@Article{AntonioMontes2011,
+  Title                    = {TÉCNICAS DE MONITORAÇÃO DE ATIVIDADES EM HONEYPOTS DE ALTA INTERATIVIDADE},
+  Author                   = {Luiz Gustavo C. Barbato e Antonio Montes},
+  Year                     = {2011},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{Araujo2010,
+  Title                    = {Utilização de honeypot e estudo comportamental de invasores na administração da segurança em redes},
+  Author                   = {Alan Alves Araújo},
+  School                   = {Universidade Gama Filho},
+  Year                     = {2010},
+  Pages                    = {1 - 46},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Araujo:2014:PHL:2660267.2660329,
+  Title                    = {From Patches to Honey-Patches: Lightweight Attacker Misdirection, Deception, and Disinformation},
+  Author                   = {Araujo, Frederico and Hamlen, Kevin W. and Biedermann, Sebastian and Katzenbeisser, Stefan},
+  Booktitle                = {Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {942--953},
+  Publisher                = {ACM},
+  Series                   = {CCS '14},
+
+  Acmid                    = {2660329},
+  Doi                      = {10.1145/2660267.2660329},
+  ISBN                     = {978-1-4503-2957-6},
+  Keywords                 = {honeypots, intrusion detection and prevention},
+  Location                 = {Scottsdale, Arizona, USA},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2660267.2660329}
+}
+
+@Article{ArielSoaresTeles2010,
+  Title                    = {Honeypots par a Redes Sem Fio},
+  Author                   = {Ariel Soares Teles, Zair Abdelouahab, Lianna M. C. Duarte, Raimundo P. C. Neto, Vladimir B. Oliveira, Wagner E. L. Costa},
+  Year                     = {2010},
+  Pages                    = {1 - 4},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.01}
+}
+
+@Article{Artail2006,
+  Title                    = {A hybrid honeypot framework for improving intrusion detection systems in protecting organizational networks},
+  Author                   = {Artail, Hassan and Safa, Haidar and Sraj, Malek and Kuwatly, Iyad and Al-Masri, Zaid},
+  Year                     = {2006},
+  Number                   = {4},
+  Pages                    = {274--288},
+  Volume                   = {25},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {computers \& security},
+  Owner                    = {fernando},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Azevedo2005,
+  Title                    = {Honeypots - A seguran ̧ca atrav ́es do disfarce},
+  Author                   = {Tiago Souza Azevedo},
+  Year                     = {2005},
+
+  Month                    = {Agosto},
+  Pages                    = {1 - 7},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{BalajiDarapareddy2012,
+  Title                    = {An Advanced Honeypot System for Efficient Capture and Analysis of Network Attack Traffic},
+  Author                   = {Balaji Darapareddy, Vijayadeep Gummadi},
+  Year                     = {2012},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{Bell2014,
+  Title                    = {Building a Honeypot to Research Cyber-Attack Techniques},
+  Author                   = {Simon Bell},
+  School                   = {University of Sussex},
+  Year                     = {2014},
+  Pages                    = {1 - 69},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.01}
+}
+
+@Monografia{Bento2006,
+  Title                    = {SEGURANÇA DE REDES UTILIZANDO HONEYPOT},
+  Author                   = {Ciro Fernando Preto Borges
+Paulo Diego Nogueira Bento},
+  School                   = {INSTITUTO DE ESTUDOS SUPERIORES DA AMAZÔNIA},
+  Year                     = {2006},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Bertr2013,
+  Title                    = {DarkNOC: Dashboard for Honeypot Management},
+  Author                   = {Bertrand Sobesto, Michel Cukier, Matti Hiltunen, Dave Kormann, Gregg Vesonder},
+  Year                     = {2013},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Biedermann:2012:FDE:2381913.2381916,
+  Title                    = {Fast Dynamic Extracted Honeypots in Cloud Computing},
+  Author                   = {Biedermann, Sebastian and Mink, Martin and Katzenbeisser, Stefan},
+  Booktitle                = {Proceedings of the 2012 ACM Workshop on Cloud Computing Security Workshop},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {13--18},
+  Publisher                = {ACM},
+  Series                   = {CCSW '12},
+
+  Acmid                    = {2381916},
+  Doi                      = {10.1145/2381913.2381916},
+  ISBN                     = {978-1-4503-1665-1},
+  Keywords                 = {cloud computing, honeypot, security-as-a-service},
+  Location                 = {Raleigh, North Carolina, USA},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/2381913.2381916}
+}
+
+@InProceedings{Borkar:2011:HST:1980022.1980327,
+  Title                    = {Honeypot: A Survey of Technologies, Tools and Deployment},
+  Author                   = {Borkar, Anita and Salunke, Akshaya and Barabde, Ankita and Karlekar, N. P.},
+  Booktitle                = {Proceedings of the International Conference \&\#38; Workshop on Emerging Trends in Technology},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {1357--1357},
+  Publisher                = {ACM},
+  Series                   = {ICWET '11},
+
+  Acmid                    = {1980327},
+  Doi                      = {10.1145/1980022.1980327},
+  ISBN                     = {978-1-4503-0449-8},
+  Location                 = {Mumbai, Maharashtra, India},
+  Numpages                 = {1},
+  Url                      = {http://doi.acm.org/10.1145/1980022.1980327}
+}
+
+@Monografia{Burdino2009,
+  Title                    = {Honeypots como Estratégia de Segurança para Redes},
+  Author                   = {Luís Cláudio Burdino},
+  School                   = {Centro Universitário de Brasília – UniCEUB},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Chang:2013:ADA:2501654.2501663,
+  Title                    = {Analyzing and Defending Against Web-based Malware},
+  Author                   = {Chang, Jian and Venkatasubramanian, Krishna K. and West, Andrew G. and Lee, Insup},
+  Year                     = {2013},
+
+  Month                    = aug,
+  Number                   = {4},
+  Pages                    = {49:1--49:35},
+  Volume                   = {45},
+
+  Acmid                    = {2501663},
+  Address                  = {New York, NY, USA},
+  Articleno                = {49},
+  Doi                      = {10.1145/2501654.2501663},
+  ISSN                     = {0360-0300},
+  Issue_date               = {August 2013},
+  Journal                  = {ACM Comput. Surv.},
+  Keywords                 = {Web-based malware},
+  Numpages                 = {35},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2501654.2501663}
+}
+
+@Article{ChristianKreibich2014,
+  Title                    = {Honeycomb – Creating Intrusion Detection Signatures Using Honeypots},
+  Author                   = {Christian Kreibich, Jon Crowcroft},
+  Year                     = {2014},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Christoforou:2015:HCU:2801948.2802021,
+  Title                    = {HoneyCY: A Configurable Unified Management Framework for Open-source Honeypot Services},
+  Author                   = {Christoforou, Andreas and Gjermundr{\o}d, Harald and Dionysiou, Ioanna},
+  Booktitle                = {Proceedings of the 19th Panhellenic Conference on Informatics},
+  Year                     = {2015},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {161--164},
+  Publisher                = {ACM},
+  Series                   = {PCI '15},
+
+  Acmid                    = {2802021},
+  Doi                      = {10.1145/2801948.2802021},
+  ISBN                     = {978-1-4503-3551-5},
+  Keywords                 = {honeypot, proactive defense, unified management},
+  Location                 = {Athens, Greece},
+  Numpages                 = {4},
+  Url                      = {http://doi.acm.org/10.1145/2801948.2802021}
+}
+
+@Monografia{CostaOliveir2009,
+  Title                    = {Apresentando os Honeypots: Definições, Conceitos Gerais e Implantação},
+  Author                   = {Higor da Costa Oliveira},
+  School                   = {Universidade Federal de Juiz de Fora},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{DeCristofaro:2014:PLU:2663716.2663729,
+  Title                    = {Paying for Likes?: Understanding Facebook Like Fraud Using Honeypots},
+  Author                   = {De Cristofaro, Emiliano and Friedman, Arik and Jourjon, Guillaume and Kaafar, Mohamed Ali and Shafiq, M. Zubair},
+  Booktitle                = {Proceedings of the 2014 Conference on Internet Measurement Conference},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {129--136},
+  Publisher                = {ACM},
+  Series                   = {IMC '14},
+
+  Acmid                    = {2663729},
+  Doi                      = {10.1145/2663716.2663729},
+  ISBN                     = {978-1-4503-3213-2},
+  Keywords                 = {honeypots, malicious activities, online social networks},
+  Location                 = {Vancouver, BC, Canada},
+  Numpages                 = {8},
+  Url                      = {http://doi.acm.org/10.1145/2663716.2663729}
+}
+
+@Article{EmersonVirti2007,
+  Title                    = {Utilizando Honeypots para Medição de Atividade de Rede não Usual na Internet},
+  Author                   = {Emerson Virti, Leandro Márcio Bertholdo, Liane Tarouco, Lisandro Granville},
+  Year                     = {2007},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{FabriciodosSantosRodrigues2015,
+  Title                    = {Avaliação da Ferramenta de Segurança da Informação Honeypot},
+  Author                   = {Fabrício dos Santos Rodrigues, Thiago Rafael de Souza, Cristiano Antônio Diniz},
+  Year                     = {2015},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{FengZhang2005,
+  Title                    = {Honeypot: a Supplemented Active Defense System for Network Security},
+  Author                   = {Feng Zhang, Shijie Zhou. Zhiguang Qin, J. L.Shijie Zhou. Zhiguang Qin, Jinde Liu},
+  Year                     = {2005},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Fronimos:2014:ELI:2645791.2645850,
+  Title                    = {Evaluating Low Interaction Honeypots and On Their Use Against Advanced Persistent Threats},
+  Author                   = {Fronimos, D. and Magkos, E. and Chrissikopoulos, V.},
+  Booktitle                = {Proceedings of the 18th Panhellenic Conference on Informatics},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {5:1--5:2},
+  Publisher                = {ACM},
+  Series                   = {PCI '14},
+
+  Acmid                    = {2645850},
+  Articleno                = {5},
+  Doi                      = {10.1145/2645791.2645850},
+  ISBN                     = {978-1-4503-2897-5},
+  Keywords                 = {APTs, Low-interaction honeypots, Performance, Usability},
+  Location                 = {Athens, Greece},
+  Numpages                 = {2},
+  Url                      = {http://doi.acm.org/10.1145/2645791.2645850}
+}
+
+@Monografia{Gatti2009,
+  Title                    = {Honeypot: Conceitos gerais e Implantação com software livre de baixa interatividade},
+  Author                   = {Raphael Franco Gatti},
+  School                   = {Universidade de São Francisco},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Gobel2009,
+  Title                    = {Amun: A Python Honeypot},
+  Author                   = {Jan Gobel},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Gregio2014,
+  Title                    = {Modelagem de um Sistema Distribuído orientado à Agentes para Coleta e Análise de Código Malicioso da Internet},
+  Author                   = {André R. A. Grégio},
+  Year                     = {2010},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{Jesus2010,
+  Title                    = {Honeypot de alta-interatividade para detecção e contenção de botnets: caso UFBA},
+  Author                   = {Thiago Lima Bomfim de Jesus},
+  School                   = {UNIVERSIDADE FEDERAL DA BAHIA},
+  Year                     = {2010},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{JoaoM.Ceron2012,
+  Title                    = {Vulnerabilidades em Aplicações Web: uma Análise Baseada nos Dados Coletados em Honeypots},
+  Author                   = {João M. Ceron, Leonardo L. Fagundes, Glauco A. Ludwig, Liane Tarouco, Leandro Bertholdo},
+  Year                     = {2012},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{John:2011:HHD:1963405.1963437,
+  Title                    = {Heat-seeking Honeypots: Design and Experience},
+  Author                   = {John, John P. and Yu, Fang and Xie, Yinglian and Krishnamurthy, Arvind and Abadi, Mart\'{\i}n},
+  Booktitle                = {Proceedings of the 20th International Conference on World Wide Web},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {207--216},
+  Publisher                = {ACM},
+  Series                   = {WWW '11},
+
+  Acmid                    = {1963437},
+  Doi                      = {10.1145/1963405.1963437},
+  ISBN                     = {978-1-4503-0632-4},
+  Keywords                 = {honeypots, web security},
+  Location                 = {Hyderabad, India},
+  Numpages                 = {10},
+  Url                      = {http://doi.acm.org/10.1145/1963405.1963437}
+}
+
+@Article{Johnson2009,
+  Title                    = {The honeypot study protocol: a randomized controlled trial of exit-site application of medihoney antibacterial wound gel for the prevention of catheter-associated infections in peritoneal dialysis patients},
+  Author                   = {Johnson, David W and Clark, Carolyn and Isbel, Nicole M and Hawley, Carmel M and Beller, Elaine and Cass, Alan and De Zoysa, Janak and McTaggart, Steven and Playford, Geoffrey and Rosser, Brenda and others},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {303--309},
+  Volume                   = {29},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {Peritoneal dialysis international},
+  Owner                    = {fernando},
+  Publisher                = {Multimed Inc},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Jones:2004:HER:1029533.1029540,
+  Title                    = {Honeynets: An Educational Resource for IT Security},
+  Author                   = {Jones, Jeremiah K. and Romney, Gordon W.},
+  Booktitle                = {Proceedings of the 5th Conference on Information Technology Education},
+  Year                     = {2004},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {24--28},
+  Publisher                = {ACM},
+  Series                   = {CITC5 '04},
+
+  Acmid                    = {1029540},
+  Doi                      = {10.1145/1029533.1029540},
+  ISBN                     = {1-58113-936-5},
+  Keywords                 = {IT educational resource, curricula, honeynet, honeypot, information assurance, information technology, security education},
+  Location                 = {Salt Lake City, UT, USA},
+  Numpages                 = {5},
+  Url                      = {http://doi.acm.org/10.1145/1029533.1029540}
+}
+
+@Article{K.G.Anagnostakis2010,
+  Title                    = {Detecting Targeted Attacks Using Shadow Honeypots},
+  Author                   = {K. G. Anagnostakis, S. Sidiroglou, P. Akritidis, K. Xinidis, E. Markatos, A. D. Keromytis},
+  Year                     = {2010},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Kaur:2011:IDS:2007052.2007060,
+  Title                    = {Intrusion Detection System Using Honeypots and Swarm Intelligence},
+  Author                   = {Kaur, Gurdip and Khurana, Meenu and Sethi, Monika},
+  Booktitle                = {Proceedings of the International Conference on Advances in Computing and Artificial Intelligence},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {34--38},
+  Publisher                = {ACM},
+  Series                   = {ACAI '11},
+
+  Acmid                    = {2007060},
+  Doi                      = {10.1145/2007052.2007060},
+  ISBN                     = {978-1-4503-0635-5},
+  Keywords                 = {NIDS, Swarm Intelligence, backward ants, forward ants, honeypots, intrusion detection system, load balancer},
+  Location                 = {Rajpura/Punjab, India},
+  Numpages                 = {5},
+  Url                      = {http://doi.acm.org/10.1145/2007052.2007060}
+}
+
+@InProceedings{Khattab:2006:HBM:1898699.1898901,
+  Title                    = {Honeypot Back-propagation for Mitigating Spoofing Distributed Denial-of-service Attacks},
+  Author                   = {Khattab, Sherif and Melhem, Rami and Moss{\'e}, Daniel and Znati, Taieb},
+  Booktitle                = {Proceedings of the 20th International Conference on Parallel and Distributed Processing},
+  Year                     = {2006},
+
+  Address                  = {Washington, DC, USA},
+  Pages                    = {351--351},
+  Publisher                = {IEEE Computer Society},
+  Series                   = {IPDPS'06},
+
+  Acmid                    = {1898901},
+  ISBN                     = {1-4244-0054-6},
+  Location                 = {Rhodes Island, Greece},
+  Numpages                 = {1},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1898699.1898901}
+}
+
+@Article{KlausSteding-Jessen2005,
+  Title                    = {MECANISMOS PARA CONTENÇÃO DE TRÁFEGO MALICIOSO DE SAÍDA EM HONEYNETS},
+  Author                   = {Klaus Steding-Jessen, Cristine Hoepers, Antonio Montes},
+  Year                     = {2005},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Krawetz2004,
+  Title                    = {Anti-honeypot technology},
+  Author                   = {Krawetz, Neal},
+  Year                     = {2004},
+  Number                   = {1},
+  Pages                    = {76--79},
+  Volume                   = {2},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {Security \& Privacy, IEEE},
+  Owner                    = {fernando},
+  Publisher                = {IEEE},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Kreibich:2004:HCI:972374.972384,
+  Title                    = {Honeycomb: Creating Intrusion Detection Signatures Using Honeypots},
+  Author                   = {Kreibich, Christian and Crowcroft, Jon},
+  Year                     = {2004},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {51--56},
+  Volume                   = {34},
+
+  Acmid                    = {972384},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/972374.972384},
+  ISSN                     = {0146-4833},
+  Issue_date               = {January 2004},
+  Journal                  = {SIGCOMM Comput. Commun. Rev.},
+  Keywords                 = {honeypots, longest-common-substring algorithms, network intrusion detection, pattern detection, protocol analysis, suffix trees, traffic signatures},
+  Numpages                 = {6},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/972374.972384}
+}
+
+@InProceedings{Krishnamurthy:2004:MMH:1016687.1016696,
+  Title                    = {Mohonk: Mobile Honeypots to Trace Unwanted Traffic Early},
+  Author                   = {Krishnamurthy, Balachander},
+  Booktitle                = {Proceedings of the ACM SIGCOMM Workshop on Network Troubleshooting: Research, Theory and Operations Practice Meet Malfunctioning Reality},
+  Year                     = {2004},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {277--282},
+  Publisher                = {ACM},
+  Series                   = {NetT '04},
+
+  Acmid                    = {1016696},
+  Doi                      = {10.1145/1016687.1016696},
+  ISBN                     = {1-58113-942-X},
+  Keywords                 = {network monitoring, unwanted packets},
+  Location                 = {Portland, Oregon, USA},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/1016687.1016696}
+}
+
+@InProceedings{Krueger:2012:LSM:2381896.2381904,
+  Title                    = {Learning Stateful Models for Network Honeypots},
+  Author                   = {Krueger, Tammo and Gascon, Hugo and Kr\"{a}mer, Nicole and Rieck, Konrad},
+  Booktitle                = {Proceedings of the 5th ACM Workshop on Security and Artificial Intelligence},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {37--48},
+  Publisher                = {ACM},
+  Series                   = {AISec '12},
+
+  Acmid                    = {2381904},
+  Doi                      = {10.1145/2381896.2381904},
+  ISBN                     = {978-1-4503-1664-4},
+  Keywords                 = {clustering, honeypots, markov models, non-negative matrix factorization, state machine inference},
+  Location                 = {Raleigh, North Carolina, USA},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2381896.2381904}
+}
+
+@Article{KrzysztofCABAJ2015,
+  Title                    = {HoneyPot systems in practice},
+  Author                   = {Krzysztof CABAJ, Piotr GAWKOWSKI},
+  Year                     = {2015},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Kuwatly2004,
+  Title                    = {A dynamic honeypot design for intrusion detection},
+  Author                   = {Kuwatly, Iyad and Sraj, Malek and Al Masri, Zaid and Artail, Hassan},
+  Booktitle                = {Pervasive Services, 2004. ICPS 2004. IEEE/ACS International Conference on},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {95--104},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{KyuminLee2010,
+  Title                    = {The Social Honeypot Project: Protecting Online Communities from Spammers},
+  Author                   = {Kyumin Lee, James Caverlee, Steve Webb},
+  Year                     = {2010},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{MARAL2006,
+  Title                    = {Estudo de taxonomia de ataques e atacantes em um honeypot de alta interação},
+  Author                   = {LAERTE PEOTTA DE MELO, DINO MACEDO AMARAL},
+  Year                     = {2006},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@MastersThesis{LakhaniDESCONHECIDO,
+  Title                    = {Deception Techniques Using Honeypots},
+  Author                   = {Amit D. Lakhani},
+  School                   = {Information Security Group
+Royal Holloway, University of London
+UK},
+  Year                     = {DESCONHECIDO},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Lee:2010:SHP:1772690.1772843,
+  Title                    = {The Social Honeypot Project: Protecting Online Communities from Spammers},
+  Author                   = {Lee, Kyumin and Caverlee, James and Webb, Steve},
+  Booktitle                = {Proceedings of the 19th International Conference on World Wide Web},
+  Year                     = {2010},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {1139--1140},
+  Publisher                = {ACM},
+  Series                   = {WWW '10},
+
+  Acmid                    = {1772843},
+  Doi                      = {10.1145/1772690.1772843},
+  ISBN                     = {978-1-60558-799-8},
+  Keywords                 = {social honeypots, social media, spam},
+  Location                 = {Raleigh, North Carolina, USA},
+  Numpages                 = {2},
+  Url                      = {http://doi.acm.org/10.1145/1772690.1772843}
+}
+
+@InProceedings{Lee:2010:USS:1835449.1835522,
+  Title                    = {Uncovering Social Spammers: Social Honeypots + Machine Learning},
+  Author                   = {Lee, Kyumin and Caverlee, James and Webb, Steve},
+  Booktitle                = {Proceedings of the 33rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  Year                     = {2010},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {435--442},
+  Publisher                = {ACM},
+  Series                   = {SIGIR '10},
+
+  Acmid                    = {1835522},
+  Doi                      = {10.1145/1835449.1835522},
+  ISBN                     = {978-1-4503-0153-4},
+  Keywords                 = {social honeypots, social media, spam},
+  Location                 = {Geneva, Switzerland},
+  Numpages                 = {8},
+  Url                      = {http://doi.acm.org/10.1145/1835449.1835522}
+}
+
+@InProceedings{Lee2010,
+  Title                    = {The social honeypot project: protecting online communities from spammers},
+  Author                   = {Lee, Kyumin and Caverlee, James and Webb, Steve},
+  Booktitle                = {Proceedings of the 19th international conference on World wide web},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {1139--1140},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{LuizGustavoC.Barbato2011,
+  Title                    = {TÉCNICAS DE OCULTAÇÃO DE TRÁFEGO DE REDE EM HONEYPOTS DE ALTA INTERATIVIDADE},
+  Author                   = {Luiz Gustavo C. Barbato, Antonio Montes},
+  Year                     = {2011},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.01}
+}
+
+@InProceedings{Mairh:2011:HNS:1947940.1948065,
+  Title                    = {Honeypot in Network Security: A Survey},
+  Author                   = {Mairh, Abhishek and Barik, Debabrat and Verma, Kanchan and Jena, Debasish},
+  Booktitle                = {Proceedings of the 2011 International Conference on Communication, Computing \&\#38; Security},
+  Year                     = {2011},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {600--605},
+  Publisher                = {ACM},
+  Series                   = {ICCCS '11},
+
+  Acmid                    = {1948065},
+  Doi                      = {10.1145/1947940.1948065},
+  ISBN                     = {978-1-4503-0464-1},
+  Keywords                 = {IDS, honeycomb, honeynet, honeypot, load balancer and honeywall},
+  Location                 = {Rourkela, Odisha, India},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/1947940.1948065}
+}
+
+@InProceedings{Mansoori:2014:YYL:2667510.2667512,
+  Title                    = {YALIH, Yet Another Low Interaction Honeyclient},
+  Author                   = {Mansoori, Masood and Welch, Ian and Fu, Qiang},
+  Booktitle                = {Proceedings of the Twelfth Australasian Information Security Conference - Volume 149},
+  Year                     = {2014},
+
+  Address                  = {Darlinghurst, Australia, Australia},
+  Pages                    = {7--15},
+  Publisher                = {Australian Computer Society, Inc.},
+  Series                   = {AISC '14},
+
+  Acmid                    = {2667512},
+  ISBN                     = {978-1-921770-32-6},
+  Keywords                 = {client honeypot, malicious website, pattern matching, regular expression, signature detection},
+  Location                 = {Auckland, New Zealand},
+  Numpages                 = {9},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2667510.2667512}
+}
+
+@Article{MarcoA.Trentin2012,
+  Title                    = {Proposta de Implementação de uma Honeypot para Detecção de Vulnerabilidades},
+  Author                   = {Marco A. Trentin, Gustavo S. Linden, Alcides A. S. Coelho Júnior, André L. Fávero},
+  Year                     = {2012},
+  Pages                    = {1-7},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.01}
+}
+
+@InProceedings{Markert:2013:HFW:2536853.2536941,
+  Title                    = {Honeypot Framework for Wireless Sensor Networks},
+  Author                   = {Markert, J\"{u}rgen and Massoth, Michael},
+  Booktitle                = {Proceedings of International Conference on Advances in Mobile Computing \&\#38; Multimedia},
+  Year                     = {2013},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {217:217--217:223},
+  Publisher                = {ACM},
+  Series                   = {MoMM '13},
+
+  Acmid                    = {2536941},
+  Articleno                = {217},
+  Doi                      = {10.1145/2536853.2536941},
+  ISBN                     = {978-1-4503-2106-8},
+  Location                 = {Vienna, Austria},
+  Numpages                 = {7},
+  Url                      = {http://doi.acm.org/10.1145/2536853.2536941}
+}
+
+@Article{MiguelHernandezyLopez2008,
+  Title                    = {Honeypots: Basic Concepts, Classification and Educational Use as Resources in Information Security Education and Courses},
+  Author                   = {Miguel Hernández y López, Carlos Francisco Lerma Reséndez},
+  Year                     = {2008},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Muehlbach:2012:MTH:2396556.2396604,
+  Title                    = {Malacoda: Towards High-level Compilation of Network Security Applications on Reconfigurable Hardware},
+  Author                   = {Muehlbach, Sascha and Koch, Andreas},
+  Booktitle                = {Proceedings of the Eighth ACM/IEEE Symposium on Architectures for Networking and Communications Systems},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {247--258},
+  Publisher                = {ACM},
+  Series                   = {ANCS '12},
+
+  Acmid                    = {2396604},
+  Doi                      = {10.1145/2396556.2396604},
+  ISBN                     = {978-1-4503-1685-9},
+  Keywords                 = {10G, FPGA, high-level languages, honeypot, networking},
+  Location                 = {Austin, Texas, USA},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2396556.2396604}
+}
+
+@Article{Nazario2009a,
+  Title                    = {PhoneyC: A Virtual Client Honeypot.},
+  Author                   = {Nazario, Jose},
+  Year                     = {2009},
+  Pages                    = {911--919},
+  Volume                   = {9},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {LEET},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Owezarski:2015:NRA:2714576.2714580,
+  Title                    = {A Near Real-Time Algorithm for Autonomous Identification and Characterization of Honeypot Attacks},
+  Author                   = {Owezarski, Philippe},
+  Booktitle                = {Proceedings of the 10th ACM Symposium on Information, Computer and Communications Security},
+  Year                     = {2015},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {531--542},
+  Publisher                = {ACM},
+  Series                   = {ASIA CCS '15},
+
+  Acmid                    = {2714580},
+  Doi                      = {10.1145/2714576.2714580},
+  ISBN                     = {978-1-4503-3245-3},
+  Keywords                 = {anomaly characterization, autonomous security systems, big traffic data, honeypot attack identification, unsupervised machine learning},
+  Location                 = {Singapore, Republic of Singapore},
+  Numpages                 = {12},
+  Url                      = {http://doi.acm.org/10.1145/2714576.2714580}
+}
+
+@Article{P.Diebold2005,
+  Title                    = {A Honeypot Architecture for Detecting and Analyzing Unknown Network Attacks},
+  Author                   = {P. Diebold, A. Hess, G. Sch ̈afer},
+  Year                     = {2005},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{PabloRezendeSILVA,
+  Title                    = {O USO DA FERRAMENTA DE HONEYPOT KIPPO PARA A SEGURANÇA DE REDES},
+  Author                   = {Pablo Rezende SILVA, Daves Márcio Silva MARTINS},
+  Year                     = {2015},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{PingWang2008,
+  Title                    = {Honeypot Detection in Advanced Botnet Attacks},
+  Author                   = {Ping Wang, Lei Wu, Ryan Cunningham, Cliff C. Zou},
+  Year                     = {2008},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Pisarcik:2014:FDV:2659651.2659685,
+  Title                    = {Framework for Distributed Virtual Honeynets},
+  Author                   = {Pisar\v{c}\'{\i}k, Peter and Sokol, Pavol},
+  Booktitle                = {Proceedings of the 7th International Conference on Security of Information and Networks},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {324:324--324:329},
+  Publisher                = {ACM},
+  Series                   = {SIN '14},
+
+  Acmid                    = {2659685},
+  Articleno                = {324},
+  Doi                      = {10.1145/2659651.2659685},
+  ISBN                     = {978-1-4503-3033-6},
+  Keywords                 = {distributed framework, high-level interaction honeypot, honeypot, sensor, virtual honeynet},
+  Location                 = {Glasgow, Scotland, UK},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/2659651.2659685}
+}
+
+@InProceedings{Pouget2004,
+  Title                    = {Honeypot-based forensics},
+  Author                   = {Pouget, Fabien and Dacier, Marc and others},
+  Booktitle                = {AusCERT Asia Pacific Information Technology Security Conference},
+  Year                     = {2004},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Pouget2005,
+  Title                    = {on the Advantages of Deploying a Large Scale Distributed Honeypot Platform},
+  Author                   = {Pouget, F and Dacier, M and Pham, VH},
+  Booktitle                = {Proceedings of the E-Crime and Computer Evidence Conference},
+  Year                     = {2005},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Provos2006,
+  Title                    = {Honeyd: A Virtual Honeypot Daemon (Extended Abstract)},
+  Author                   = {Niels Provos},
+  Year                     = {2006},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Provos2003,
+  Title                    = {Honeyd-a virtual honeypot daemon},
+  Author                   = {Provos, Niels},
+  Booktitle                = {10th DFN-CERT Workshop, Hamburg, Germany},
+  Year                     = {2003},
+  Pages                    = {4},
+  Volume                   = {2},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{RamKumarSingh2009,
+  Title                    = {Intrusion Detection System Using Advanced Honeypots},
+  Author                   = {Ram Kumar Singh, Prof. T. Ramanujam},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Raynal2004,
+  Title                    = {Honeypot forensics part 1: analyzing the network},
+  Author                   = {Raynal, Frederic and Berthier, Yann and Biondi, Philippe and Kaminsky, Danielle},
+  Year                     = {2004},
+  Number                   = {4},
+  Pages                    = {72--78},
+  Volume                   = {2},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {Security \& Privacy, IEEE},
+  Owner                    = {fernando},
+  Publisher                = {IEEE},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{RenukaPrasad.B2011,
+  Title                    = {DESIGN AND EFFICIENT DEPLOYMENT OF HONEYPOT AND DYNAMIC RULE BASED LIVE NETWORK INTRUSION COLLABORATIVE SYSTEM},
+  Author                   = {Renuka Prasad.B, Dr Annamma Abraham, and Abhas Abhinav, Sunil.V.Gurlahosur, Srinivasa Y},
+  Year                     = {2011},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@MastersThesis{ROCHA2006,
+  Title                    = {UTILIZAÇÃO DE UM AMBIENTE DE HONEYNET NO TREINAMENTO DE REDES NEURAIS ARTIFICIAIS PARA DETECÇÃO DE INTRUSÃO},
+  Author                   = {DANIEL LYRA ROCHA},
+  School                   = {UNIVERSIDADE DE BRASÍLIA FACULDADE DE TECNOLOGIA},
+  Year                     = {2006},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Sadasivam:2005:DNS:1047846.1047890,
+  Title                    = {Design of Network Security Projects Using Honeypots},
+  Author                   = {Sadasivam, Karthik and Samudrala, Banuprasad and Yang, T. Andrew},
+  Year                     = {2005},
+
+  Month                    = apr,
+  Number                   = {4},
+  Pages                    = {282--293},
+  Volume                   = {20},
+
+  Acmid                    = {1047890},
+  Address                  = {USA},
+  ISSN                     = {1937-4771},
+  Issue_date               = {April 2005},
+  Journal                  = {J. Comput. Sci. Coll.},
+  Numpages                 = {12},
+  Publisher                = {Consortium for Computing Sciences in Colleges},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1047846.1047890}
+}
+
+@InProceedings{Saud:2015:TPD:2799979.2800042,
+  Title                    = {Towards Proactive Detection of Advanced Persistent Threat (APT) Attacks Using Honeypots},
+  Author                   = {Saud, Zainab and Islam, M. Hasan},
+  Booktitle                = {Proceedings of the 8th International Conference on Security of Information and Networks},
+  Year                     = {2015},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {154--157},
+  Publisher                = {ACM},
+  Series                   = {SIN '15},
+
+  Acmid                    = {2800042},
+  Doi                      = {10.1145/2799979.2800042},
+  ISBN                     = {978-1-4503-3453-2},
+  Keywords                 = {APT attacks, honeypots, network intrusion detection},
+  Location                 = {Sochi, Russia},
+  Numpages                 = {4},
+  Url                      = {http://doi.acm.org/10.1145/2799979.2800042}
+}
+
+@Article{Seifert2007,
+  Title                    = {Honeyc-the low-interaction client honeypot},
+  Author                   = {Seifert, Christian and Welch, Ian and Komisarczuk, Peter and others},
+  Year                     = {2007},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {Proceedings of the 2007 NZCSRCS, Waikato University, Hamilton, New Zealand},
+  Owner                    = {fernando},
+  Publisher                = {Citeseer},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Shabtai:2016:BSU:2891450.2854152,
+  Title                    = {Behavioral Study of Users When Interacting with Active Honeytokens},
+  Author                   = {Shabtai, Asaf and Bercovitch, Maya and Rokach, Lior and Gal, Ya'akov (Kobi) and Elovici, Yuval and Shmueli, Erez},
+  Year                     = {2016},
+
+  Month                    = feb,
+  Number                   = {3},
+  Pages                    = {9:1--9:21},
+  Volume                   = {18},
+
+  Acmid                    = {2854152},
+  Address                  = {New York, NY, USA},
+  Articleno                = {9},
+  Doi                      = {10.1145/2854152},
+  ISSN                     = {1094-9224},
+  Issue_date               = {February 2016},
+  Journal                  = {ACM Trans. Inf. Syst. Secur.},
+  Keywords                 = {Data misuse, honeypots, honeytokens, insider threat},
+  Numpages                 = {21},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2854152}
+}
+
+@Article{Siles2007,
+  Title                    = {HoneySpot:
+The Wireless Honeypot. Monitoring the Attacker’s Activities in Wireless Networks. A design and architectural overview},
+  Author                   = {Raúl Siles},
+  Year                     = {2007},
+  Volume                   = {The Spanish Honeynet Project (SHP)},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{SilvaBrito2010,
+  Title                    = {Uso de honeypots de baixa interatividade na coleta e estudo de spams no contexto do CERT.Bahia},
+  Author                   = {Italo Valcy da Silva Brito},
+  School                   = {UNIVERSIDADE FEDERAL DA BAHIA},
+  Year                     = {2010},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{SilvaFilho2009,
+  Title                    = {Estudo de ferramentas para honeypots instaláveis em máquinas virtuais perfazendo uma honeynet virtual},
+  Author                   = {Sidney Simões e Silva Filho},
+  Year                     = {2009},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Monografia{SousaMartinsJunior2006,
+  Title                    = {Honeypot: Conceitos gerais e implementação de um Honeytoken.},
+  Author                   = {José de Sousa Martins Junior},
+  School                   = {Universidade de São Francisco},
+  Year                     = {2006},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{SteveWebb2014,
+  Title                    = {Social Honeypots: Making Friends With A Spammer Near You},
+  Author                   = {Steve Webb, James Caverlee, Calton Pu},
+  Year                     = {2014},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Stockman:2015:OHS:2808062.2808069,
+  Title                    = {An Open-Source Honeynet System to Study System Banner Message Effects on Hackers},
+  Author                   = {Stockman, Mark and Heile, Robert and Rein, Anthony},
+  Booktitle                = {Proceedings of the 4th Annual ACM Conference on Research in Information Technology},
+  Year                     = {2015},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {19--22},
+  Publisher                = {ACM},
+  Series                   = {RIIT '15},
+
+  Acmid                    = {2808069},
+  Doi                      = {10.1145/2808062.2808069},
+  ISBN                     = {978-1-4503-3836-3},
+  Keywords                 = {cybercrime, cybersecurity, deterrence, hacking, honeynets, honeypots, network security},
+  Location                 = {Chicago, Illinois, USA},
+  Numpages                 = {4},
+  Url                      = {http://doi.acm.org/10.1145/2808062.2808069}
+}
+
+@Article{Teodorczyk:2013:WMH:2436343.2436346,
+  Title                    = {Wi-Fi Mini Honeypot},
+  Author                   = {Teodorczyk, Marcin},
+  Year                     = {2013},
+
+  Month                    = jan,
+  Number                   = {225},
+  Volume                   = {2013},
+
+  Acmid                    = {2436346},
+  Address                  = {Houston, TX},
+  Articleno                = {3},
+  ISSN                     = {1075-3583},
+  Issue_date               = {January 2013},
+  Journal                  = {Linux J.},
+  Publisher                = {Belltown Media},
+  Url                      = {http://dl.acm.org/citation.cfm?id=2436343.2436346}
+}
+
+@InProceedings{Tiwari:2012:INS:2381716.2381875,
+  Title                    = {Improving Network Security and Design Using Honeypots},
+  Author                   = {Tiwari, Ritu and Jain, Abhishek},
+  Booktitle                = {Proceedings of the CUBE International Information Technology Conference},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {847--852},
+  Publisher                = {ACM},
+  Series                   = {CUBE '12},
+
+  Acmid                    = {2381875},
+  Doi                      = {10.1145/2381716.2381875},
+  ISBN                     = {978-1-4503-1185-4},
+  Keywords                 = {HIHAT, honeynet, honeypot, sebek, snort},
+  Location                 = {Pune, India},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/2381716.2381875}
+}
+
+@InProceedings{Vasilomanolakis:2013:TNI:2516760.2516763,
+  Title                    = {This Network is Infected: HosTaGe - a Low-interaction Honeypot for Mobile Devices},
+  Author                   = {Vasilomanolakis, Emmanouil and Karuppayah, Shankar and Fischer, Mathias and M\"{u}hlh\"{a}user, Max and Plasoianu, Mihai and Pandikow, Lars and Pfeiffer, Wulf},
+  Booktitle                = {Proceedings of the Third ACM Workshop on Security and Privacy in Smartphones \&\#38; Mobile Devices},
+  Year                     = {2013},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {43--48},
+  Publisher                = {ACM},
+  Series                   = {SPSM '13},
+
+  Acmid                    = {2516763},
+  Doi                      = {10.1145/2516760.2516763},
+  ISBN                     = {978-1-4503-2491-5},
+  Keywords                 = {android, malware, mobile honeypot, security},
+  Location                 = {Berlin, Germany},
+  Numpages                 = {6},
+  Url                      = {http://doi.acm.org/10.1145/2516760.2516763}
+}
+
+@InProceedings{Vasilomanolakis:2014:HMH:2659651.2659663,
+  Title                    = {HosTaGe: A Mobile Honeypot for Collaborative Defense},
+  Author                   = {Vasilomanolakis, Emmanouil and Karuppayah, Shankar and M\"{u}hlh\"{a}user, Max and Fischer, Mathias},
+  Booktitle                = {Proceedings of the 7th International Conference on Security of Information and Networks},
+  Year                     = {2014},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {330:330--330:333},
+  Publisher                = {ACM},
+  Series                   = {SIN '14},
+
+  Acmid                    = {2659663},
+  Articleno                = {330},
+  Doi                      = {10.1145/2659651.2659663},
+  ISBN                     = {978-1-4503-3033-6},
+  Keywords                 = {Android, Hostage, Mobile Honeypot, Security},
+  Location                 = {Glasgow, Scotland, UK},
+  Numpages                 = {4},
+  Url                      = {http://doi.acm.org/10.1145/2659651.2659663}
+}
+
+@Article{Vrable:2005:SFC:1095809.1095825,
+  Title                    = {Scalability, Fidelity, and Containment in the Potemkin Virtual Honeyfarm},
+  Author                   = {Vrable, Michael and Ma, Justin and Chen, Jay and Moore, David and Vandekieft, Erik and Snoeren, Alex C. and Voelker, Geoffrey M. and Savage, Stefan},
+  Year                     = {2005},
+
+  Month                    = oct,
+  Number                   = {5},
+  Pages                    = {148--162},
+  Volume                   = {39},
+
+  Acmid                    = {1095825},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/1095809.1095825},
+  ISSN                     = {0163-5980},
+  Issue_date               = {December 2005},
+  Journal                  = {SIGOPS Oper. Syst. Rev.},
+  Keywords                 = {copy-on-write, honeyfarm, honeypot, malware, virtual machine monitor},
+  Numpages                 = {15},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/1095809.1095825}
+}
+
+@InProceedings{Wahlisch:2012:FIM:2342356.2342422,
+  Title                    = {First Insights from a Mobile Honeypot},
+  Author                   = {W\"{a}hlisch, Matthias and Trapp, Sebastian and Keil, Christian and Sch\"{o}nfelder, Jochen and schmidt, Thomas C. and Schiller, Jochen},
+  Booktitle                = {Proceedings of the ACM SIGCOMM 2012 Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication},
+  Year                     = {2012},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {305--306},
+  Publisher                = {ACM},
+  Series                   = {SIGCOMM '12},
+
+  Acmid                    = {2342422},
+  Doi                      = {10.1145/2342356.2342422},
+  ISBN                     = {978-1-4503-1419-0},
+  Keywords                 = {mobile honeypot, mobile vs. non-mobile attacks},
+  Location                 = {Helsinki, Finland},
+  Numpages                 = {2},
+  Url                      = {http://doi.acm.org/10.1145/2342356.2342422}
+}
+
+@Article{Wahlisch:2012:FIM:2377677.2377743,
+  Title                    = {First Insights from a Mobile Honeypot},
+  Author                   = {W\"{a}hlisch, Matthias and Trapp, Sebastian and Keil, Christian and Sch\"{o}nfelder, Jochen and schmidt, Thomas C. and Schiller, Jochen},
+  Year                     = {2012},
+
+  Month                    = aug,
+  Number                   = {4},
+  Pages                    = {305--306},
+  Volume                   = {42},
+
+  Acmid                    = {2377743},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/2377677.2377743},
+  ISSN                     = {0146-4833},
+  Issue_date               = {October 2012},
+  Journal                  = {SIGCOMM Comput. Commun. Rev.},
+  Keywords                 = {mobile honeypot, mobile vs. non-mobile attacks},
+  Numpages                 = {2},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2377677.2377743}
+}
+
+@Article{Wang2010,
+  Title                    = {Honeypot detection in advanced botnet attacks},
+  Author                   = {Wang, Ping and Wu, Lei and Cunningham, Ryan and Zou, Cliff C},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {30--51},
+  Volume                   = {4},
+
+  __markedentry            = {[fernando:6]},
+  Journal                  = {International Journal of Information and Computer Security},
+  Owner                    = {fernando},
+  Publisher                = {Inderscience Publishers},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{WeilerDESCONHECIDO,
+  Title                    = {Honeypots for Distributed Denial of Service Attacks},
+  Author                   = {Nathalie Weiler},
+  Year                     = {DESCONHECIDO},
+
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@InProceedings{Zhang2003,
+  Title                    = {Honeypot: a supplemented active defense system for network security},
+  Author                   = {Zhang, Feng and Zhou, Shijie and Qin, Zhiguang and Liu, Jinde},
+  Booktitle                = {Parallel and Distributed Computing, Applications and Technologies, 2003. PDCAT'2003. Proceedings of the Fourth International Conference on},
+  Year                     = {2003},
+  Organization             = {IEEE},
+  Pages                    = {231--235},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@Article{Zhang:2013:AHP:2542095.2542111,
+  Title                    = {ACM HotMobile 2013 Poster: Detecting Fake Check-ins in Location-based Social Networks Through Honeypot Venues},
+  Author                   = {Zhang, Ke and Pelechrinis, Konstantinos and Krishnamurthy, Prashant},
+  Year                     = {2013},
+
+  Month                    = nov,
+  Number                   = {3},
+  Pages                    = {29--30},
+  Volume                   = {17},
+
+  Acmid                    = {2542111},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1145/2542095.2542111},
+  ISSN                     = {1559-1662},
+  Issue_date               = {July 2013},
+  Journal                  = {SIGMOBILE Mob. Comput. Commun. Rev.},
+  Numpages                 = {2},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2542095.2542111}
+}
+
+@InProceedings{Zou2006,
+  Title                    = {Honeypot-aware advanced botnet construction and maintenance},
+  Author                   = {Zou, Cliff C and Cunningham, Ryan},
+  Booktitle                = {Dependable Systems and Networks, 2006. DSN 2006. International Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {199--208},
+
+  __markedentry            = {[fernando:6]},
+  Owner                    = {fernando},
+  Timestamp                = {2016.03.02}
+}
+
+@comment{jabref-entrytype: Monografia: req[author;school;title;year] opt[month;note;number;pages;volume]}
+
