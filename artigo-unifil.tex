@@ -1,0 +1,110 @@
+%Para melhor utilização da ferramenta, utilize o pdfLaTeX+MakeIndex+BibTeX%
+\documentclass[article,12pt,oneside,a4paper,english,brazil]{unifil}
+
+\DeclareUnicodeCharacter{00A0}{ }
+
+% Caso queira usar um diretório diferente pra imagem, tire o comentário da proxima linha 
+% \graphicspath{ {/home/hug/MonografeArq/}}
+\titulo{A aplicação de Honeypots juntamente com Sistemas de Detecção de Intrusão em ambientes corporativos. \\ 
+\fontsize{12}{14}\selectfont The Honeypots application along with Intrusion Detection Systems in Corporate Environments.}
+\autor{Fernando Ortiz Borges\thanks{Centro Universitário Filadélfia de Londrina - UniFil}
+\\Mario Henrique Akihiko da Costa\thanks{Centro Universitário Filadélfia de Londrina - UniFil}}
+\instituicao{Centro Universitário Filadélfia}
+\local{Londrina}
+\predate{}
+\postdate{}
+\date{}
+
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
+
+\usepackage{caption}
+\captionsetup[figure]{slc=off}
+
+\usepackage{titling}
+\setlength{\droptitle}{-3cm}
+\preauthor{\begin{flushright}
+\large \lineskip 0.5em%
+}
+\postauthor{\end{flushright}}
+
+\usepackage{graphicx}
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\fontsize{14}{15}\bfseries}{\thesection}{1em}{}
+
+\SingleSpacing
+
+\begin{document}
+\frenchspacing
+\maketitle
+\normalsize
+
+\fontsize{10}{1}\selectfont
+\section*{Resumo}
+Este estudo objetivou analisar como o uso de \textit{Honeypots} juntamente com Sistemas de Detecção de Intrusão auxiliam profissionais da área de segurança a implantarem soluções com mais segurança no ambiente corporativo. A finalidade do mesmo é apresentar soluções com técnicas e ferramentas para identificar o comportamento e os métodos utilizados por indivíduos mal-intencionados quando desejam atacarem uma rede de computadores.\\
+\vspace{\onelineskip} \\
+\noindent
+\textbf{Palavras-chave}: \textit{Honeypots}; Segurança; Redes de Computadores.
+
+
+
+\section*{Abstract}
+\begin{otherlanguage*}{english}
+
+This study aimed to examine how the use of Honeypots with Intrusion Detection Systems help security professionals to deploy solutions more securely in the corporate environment. The purpose of it is to present solutions with tools and techniques to identify the behavior and the methods used by malicious individuals when they want to attack a computer network.\\
+\vspace{\onelineskip}\\
+\noindent
+\textbf{Keywords}: \textit{Honeypots}; \textit{Security}; \textit{Network}.
+\end{otherlanguage*}
+
+%texto%
+\textual
+\fontsize{12}{7}\selectfont
+\begin{Spacing}{1.5}
+
+\section*{INTRODUÇÃO}
+
+A confiabilidade na segurança das informações de uma empresa nos dias de
+hoje tem um valor significativo dentro das organizações.  Tecnologias novas surgem no mercado a todo momento, e devido a isso, consigo são trazidas vulnerabilidades e brechas que originam em novos tipos de ataques. Esses ataques são criados e planejados por indivíduos mal-intencionados que desejam  se aponderarem desses sistemas sejam por ego ou até mesmo pelo lado financeiro. Esses ataques dificultam a tomada de decisões de administradores de redes, fazendo com que estratégias de defesas sejam mais difíceis de serem adotadas. Nesse contexto, a proposta é apresentar conceitos, definições e ferramentas necessárias para esse tipo de tomada de decisão.
+
+\section*{HONEYPOTS E SISTEMAS DE DETECÇÃO DE INTRUSÃO}
+
+\textit{Honeypots} são armadilhas implementadas de maneira propositalmente para atrair indivíduos mal-intencionados que desejam se aponderarem de sistemas e obter acesso não autorizado em determinadas redes de computadores. Eles são implementados para serem comprometidos, e assim administradores de redes poderem fazer uma análise mais precisa nas informações e rastros deixados por esses indivíduos. Sendo assim, é possível traçar medidas de prevenção de segurança.
+
+Como bem nos assegura Wrightson(2014), os \textit{Honeypots} são propositalmente configurados com vulnerabilidades específicas para que o atacante, ou seja, o indivíduo mal-intencionado, seja atraído. Afinal, esse ambiente agora possui vulnerabilidades que são de interesse para o atacante. Esse ambiente preparado, é capaz de fornecer provas de tentativas de ataques, pois foram configurados como armadilhas, e com esse propósito.
+
+Os Sistemas de Detecção de Intrusão, conhecidos como IDS (\textit{Intrusion Detection System}, são sistemas que trabalham monitorando os eventos que ocorrem dentro de uma rede de computadores. Seu principal objetivo é garantir a segurança da rede, onde utilizam meios que são capazes de prevenir e detectar ações e intrusões de indivíduos mal-intencionados que queiram destruir os pilares da Segurança da Informação (Integridade, Confidencialidade ou Disponibilidade).
+
+Conforme destacam Carissimi, Rochol e Granville (2009) os IDS atráves dos
+logs que são deixados no sistema, conseguem identificar eventos que sejam considerados anormais dentro de uma rede, esses eventos anormais podem ser desde uma tentativa de intrusão por algum indivíduo mal-intencionado, ou até mesmo algum download que esteja aumentando o tráfego da rede. Após essa detecção, alertas são disparados como aviso para os administradores de rede.
+
+\section*{METODOLOGIA EXPERIMENTAL}
+
+Para execução de um ambiente experimental se viu a necessidade de implementar um \textit{Honeypot} conhecido como \textit{Kippo}. Ele é um \textit{Honeypot} que emula o serviço \textit{SSH} com falhas e é capaz também de criar um sistema de arquivos falso, para o atacante poder se interagir com o sistema, criando arquivos, pastas ou até mesmo excluindo arquivos do ambiente emulado, com ele também é possível obter todos os \textit{logs} deixados pelo atacante e toda sua interação com o \textit{shell}. 
+
+Durante os primeiros dias dessa análise o \textit{Kippo} se mostrou bastante eficiente, conseguindo registrar todos os \textit{logs} deixados pelos atacantes e toda sua interação com o \textit{shell}. Ele também mostrou os \textit{IP´s} provenientes do ataque e de onde eles eram executados.
+
+Com isso foi possível obter detalhes do comportamento dos atacantes e nesse mesmo ambiente instalar e configurar o \textit{OSSEC} para trabalhar em modo agente. Ele é um Sistema de Detecção de Intrusão que trabalha com um sistema de \textit{active-response}, ou seja, para determinados tipos de ataques ele pode tomar medidas de prevenção.
+
+\section*{CONCLUSÃO}
+Neste trabalho foram apresentados os \textit{Honeypots} e os Sistemas de Detecção de Intrusão de uma maneira geral. A simples implementação de ambos pode trazer a tona como indivíduos mal-intencionados se comportam durante o ataque em uma rede de computadores. Sua implementação simples tem como objetivo mostrar para administradores de redes como é possível com recursos computacionais baixos obterem sucesso na implementação de sistemas de segurança. 
+
+\end{Spacing}
+\postextual
+
+% bibliografia %
+\begin{thebibliography}{99}
+
+\bibitem{}
+{MARCELO, Antonio; ALVES, M. J. P. \textbf{Honeypots}: A arte de iludir hackers. Rio de Janeiro: Brasport. 2003. }
+
+\bibitem{}
+{TYLER, Wrightson. \textbf{Segurança de Redes Sem Fio}: Guia do Iniciante. Porto Alegre: Bookman. 2014. }
+
+\bibitem{}
+{CARISSIMI, Alexandre da Silva; ROCHOL, Juergen; GRANVILLE, Lisandro Z. \textbf{Redes de Computadores}. Porto Alegre: Bookman, 2009. }
+
+\end{thebibliography}
+\end{document}
