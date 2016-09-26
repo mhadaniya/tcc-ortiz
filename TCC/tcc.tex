@@ -1,12 +1,22 @@
-%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%
 %%%   Template para utilização   %%%
 %%%%%%%%%%%%%%%%%%
 
 %Para melhor utilização da ferramenta, utilize o pdfLaTeX+MakeIndex+BibTeX%
 
 \documentclass[12pt,openright,oneside,a4paper,english,french,spanish,brazil]{unifil}
+\usepackage[alf]{abntex2cite}
 
-\titulo{A aplicação de Honeypots de baixa interatividade, juntamente com Sistemas de Detecção de Intrusão (IDS) em ambientes corporativos. Um estudo de caso.
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{black},
+  keywordstyle=\color{blue}
+}
+
+
+\titulo{A aplicação de Honeypots juntamente com Sistemas de Detecção de Intrusão (IDS) em ambientes corporativos. Um estudo de caso.
 }
 \autor{Fernando Ortiz Borges}
 \instituicao{Centro Universitário Filadélfia
@@ -48,6 +58,10 @@
 
 % --- resumo em inglês ---
 \include{./pretextual/abstract}
+
+\include{./references.bib}
+
+
 
 \newpage
 \pdfbookmark[0]{\listfigurename}{Lista de Figuras}
@@ -259,40 +273,6 @@
 %
 %%Colocar as referências conforme as normas da ABNT, somente as utilizadas no trabalho e presentes neste manuscrito.
 
-\begin{thebibliography}{99}
-
-\bibitem{Marcelo:2003}
-{MARCELO, Antonio; ALVES, Marcos José Pitanga. \textbf{Honeypots:} A arte de iludir hackers. Rio de Janeiro: Brasport, 2003. 98 p.}
-
-\bibitem{Spitzner:2002}
-{SPITZNER, Lance. \textbf{Honeypots:} tracking hackers. Boston: Addison Wesley; 2002. 480 p.}
-
-\bibitem{Demo:2000}
-{DEMO, P. \textbf{Metodologia do conhecimento científico}. São Paulo: Atlas; 2000. 208 p.}
-
-\bibitem{Gil:2008}
-{GIL, A. C. \textbf{Método e técnicas de pesquisa social. 6. ed}. São Paulo: Atlas; 2008. 200 p.}
-
-\bibitem{Gil:1999}
-{GIL, A. C. \textbf{Método e técnicas de pesquisa social. 5. ed}. São Paulo: Atlas; 1999. 206 p.}
-
-\bibitem{Nakamura:2007}
-{NAKAMURA, Emilio Tissato. \textbf{Segurança em Redes em Ambientes Cooperativos}. São Paulo: Novatec; 2007. 472 p.}
-
-%% verificar esse karma
-\bibitem{Araujo:2009}
-{ASSUNÇÃO, Marcos Flávio Araújo. \textbf{Aprenda a detectar e enganar invasores}. 2009.}
-
-\bibitem{Tyler:2014}
-{TYLER, Wrightson. \textbf{Segurança em Redes Sem Fio:} Guia do Iniciante. Porto Alegre: Bookman; 2014. 352 p.}
-
-\bibitem{Marcelo:2003}
-{FONTES, Edison. \textbf{Políticas e Normas Para a Segurança da Informação}. Rio de Janeiro: Brasport, 2012. 288 p.}
-
-\bibitem{Wikibooks:2014}
-{WIKIBOOKS. \textbf{LaTeX}: The Free Textbook Project. Disponível em: <http://en.wikibooks.org/wiki/LaTeX>. Acesso em: 09 abr. 2014.}
-
-
-\end{thebibliography}
+\bibliography{./references}{}
 
 \end{document}
