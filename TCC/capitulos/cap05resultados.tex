@@ -1,2 +1,133 @@
 \chapter{RESULTADOS OBTIDOS}
-%% conteudo
+O ambiente de desenvolvimento preparado para testes e estudos relatados no capítulo anterior foi utilizado para complementar essa pesquisa, que além de ser bibliográfica, tendo seu referencial teórico relatado nos capítulos anteriormente, utilizou-se desse ambiente para o presente estudo de caso. O ambiente realizou coletas de dados referente a tentativas de intrusões nos períodos de 17/08/2016 à 02/09/2016. O universo de pesquisa do presente trabalho compreende nas informações obtidas através dos \textit{logs} criados por essas ferramentas, nos quais serão discutidas posteriormente.
+
+Para coleta de dados e informações relevantes utilizou-se os \textit{logs} gerados pelo \textit{Honeypot} \textit{Kippo} e também \textit{logs} gerados pelo Sistema de Detecção de Intrusão, buscando obter informações mais abrangentes sobre o objeto de pesquisa.
+
+Inicialmente para verificar a tentativa de acessos não autorizados, o \textit{Honeypot Kippo} permaneceu ligado por oito dias sem trabalhar em conjunto com o Sistema de Detecção de Intrusão. Do total dos acessos não autorizados, 88.65\% desses acessos eram provenientes da China, 3.12\% da Ucrânia, 2.78\% da Alemanha e do Canadá e 2.67\% para finalizar eram provenientes dos Estados Unidos. A seguinte figura representa o gráfico elaborado a partir das informações registradas pelos \textit{logs} de acesso.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm]{figuras/conexao_pais.png}
+\caption{Quantidade de conexões por país.} 	
+\end{figure}
+
+Para aprofundar no tema deste estudo, outros dados serão apresentados com a finalidade de obter um parecer acerca do objetivo da pesquisa.
+
+A primeira questão trata-se de uma análise a respeito da quantidade de acessos não autorizados obtidos enquanto o Sistema de Detecção de Intrusão permanecia desligado.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm, height = 10cm]{figuras/conexao_sucesso1.png}
+\caption{Quantidade de conexões obtidas com sucesso.} 	
+\end{figure}
+
+De acordo com o gráfico, nota-se a quantidade de acessos não autorizados obtidos com sucesso, é importante salientar que o \textit{Honeypot} implementado, apesar de ser de média interatividade, poderia ser comprometido se mal-configurado. Com base nesses dados percebe-se a importância de manter um sistema com segurança bem definido e implementado, pois como já citado aqui, diversos tipos de ataques são criados e executados diariamente.
+
+A segunda questão, trata-se de comandos que foram executados pelos indivíduos mal-intencionados enquanto estiveram no ambiente simulado, a figura a seguir representa um gráfico abordando os comandos inseridos com sucesso, ou seja, que o ambiente permitiu que fossem executados, e também os comandos com falhas, onde o ambiente não era propício para tais execuções.
+
+\newpage
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm, height = 10cm]{figuras/top_10_comandos_falha.png}
+\caption{Comandos executados com falhas} 	
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm, height = 10cm]{figuras/comandos_sucesso.png}
+\caption{Comandos executados com sucesso} 	
+\end{figure}
+
+É interessante notar nas figuras acima, principalmente a que demonstra os principais comandos executados com falha, pois a maior parte dos atacantes, costumam parar o serviço denominado \textit{IPtables}, que é de extrema importância em um ambiente seguro, pois é responsável por definir criação de regras de \textit{firewall}. Outro comando importante a ser análisado, é quando o invasor deseja obter acesso a pasta de \textit{logs} do sistema, contida em /var/logs, o comando retornado com falha (rm -r /var/logs/auth.log) apagaria justamente o \textit{log} de acesso, o que nos leva entender que esse é um comportamento comum de um invasor, apagar os \textit{logs} de acesso para não serem rastreados.
+
+Outra questão para ser abordada e muito interessante, são os usuários e senhas que foram utilizados para o acesso. 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm, height = 10cm]{figuras/top_10_usuarios_pizza_por_cento.png}
+\caption{Top 10 usuários e senhas utilizadas para os acessos} 	
+\end{figure}
+
+É importante análisar nessa figura as senhas mais utilizadas, em combinação com os usuários. Pois a partir disso é possível adotar senhas com mais segurança em um ambiente. É necessário dar atenção para as senhas utilizadas, pois grande parte delas são senhas configuradas em padrões de fábrica de determinados aparelhos, como roteadores por exemplo, e também utilizadas em padrões de determinados serviços. Analisando por outro lado, pode-se entender que essas combinações também são provenientes de ataques de dicionário, ou seja, quando o invasor utiliza ferramentas que realizam diversas combinações por segundo a partir de um dicionário de usuários e senhas.
+
+Algo que chamou muita atenção durante a análise dos resultados obtidos, foi uma interação realizada por um indivíduo mal-intencionado, onde o mesmo após conseguir acesso ao \textit{shell}, tentou fazer \textit{download} de um arquivo possivelmente malicioso através do comando \textit{wget}. O \textit{Kippo} consegue gravar toda interação do invasor com o shell, e o seguinte comando foi utilizado pelo mesmo durante determinado acesso.
+
+\begin{lstlisting}[language=bash]
+# wget -c -P /tmp/ http://115.239.248.35:1/kkf
+\end{lstlisting}
+
+Para verificar a \textit{URL} utilizada durante a interação, a ferramenta \textit{online} VirusTotal foi utilizada. Ele é um serviço gratuito que analisa arquivos e \textit{URLs} suspeitas e facilita a rápida detecção de vírus, \textit{worms}, cavalos de tróia e todos os tipos de arquivos maliciosos. Os arquivos e \textit{URLs} enviados ao VirusTotal são automaticamente enviados para as empresas que não detectaram ameaça durante o escanemento. Vale aqui salientar que esse serviço não deve substituir nenhum sistema de segurança instalado em um computador, ele serve apenas de auxilio.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/malware.png}
+\caption{Serviço Online VirusTotal} 	
+\end{figure}
+
+As informações até aqui apresentadas foram obtidas enquanto o Sistema de Detecção de Intrusão permanecia desligado. Após oito dias de monitoramento, o \textit{IDS} então foi ligado, passando a monitorar e emitir alertas gerados da máquina onde o Honeypot estava instalado. 
+
+A seguinte figura representa o gráfico com a quantidade de acessos que o \textit{Honeypot} recebeu durante os oito dias de análise com o Sistema de Detecção de Intrusão ligado.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 13cm]{figuras/conexao_sucesso_Ossec.png}
+\caption{Quantidade de conexões obtidas com sucesso} 	
+\end{figure}
+
+\newpage
+É notável que após sua implementação, ele pode mostrar eficácia, pois reduziu a quantidade de conexões com sucesso. Isso demonstra que sua utilização, pode trazer resultados significativos de melhoria de segurança para o ambiente.
+
+\begin{table}[htb]
+\centering
+\caption{Porcentagem de conexões reduzidas}
+\begin{tabular}{|c|c|}
+\hline 
+• & Reduziu (\%) \\ 
+\hline 
+25/ago & 78,43 \\ 
+\hline 
+26/ago & 94,74 \\ 
+\hline 
+27/ago & 95,65 \\ 
+\hline 
+28/ago & 92,54 \\ 
+\hline 
+29/ago & 97,78 \\ 
+\hline 
+30/ago & 97,30 \\ 
+\hline 
+31/ago & 95,45 \\ 
+\hline 
+01/set & 83,33 \\ \hline
+\end{tabular} 
+\end{table}
+
+A tabela apresentada representa a porcentagem das conexões que foram reduzidas a partir do momento em que o Sistema de Detecção de Intrusão foi ligado. Por exemplo, no primeiro dia que o \textit{IDS} foi ligado, as intrusões obtidas com sucesso caíram 78,43\%.
+
+O seguinte trecho demonstra a maneira como o sistema de \textit{active-response} é executado quando acontece uma detecção de uma possível invasão.
+
+\begin{lstlisting}[language=bash]
+Web Aug 26 19:32:07 BST 2016 /var/ossec/active-response/bin/firewall-drop.sh add - 222.186.39.48 1326949601.551727 3301
+\end{lstlisting}
+
+\begin{lstlisting}[language=bash]
+Web Aug 26 19:32:06 BST 2016 /var/ossec/active-response/bin/host-deny.sh add - 222.186.39.48 1326949601.551727 3301
+\end{lstlisting}
+
+Este script vem junto com o OSSEC e adiciona um endereço de \textit{IP} em uma regra de \textit{firewall}. É um \textit{shell} \textit{script} relativamente simples que poderia ser substituído pelo próprio \textit{firewall} se caso o ambiente implementado existisse um em operação. Ele também adiciona o \textit{IP} em uma lista negra de \textit{IPs} através do \textit{script host-deny.sh}. O OSSEC pode ser configurado para deixar esses \textit{IPs} bloqueados, ou depois de um tempo pré-estabelecido pelo administrador retirá-los das regras e listas de bloqueios.
+
+Outra questão para ser abordada é o alerta de uma possível invasão enviado para o administrador de rede via \textit{e-mail}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/ossec_mail.png}
+\caption{Alerta enviado via \textit{e-mail}} 	
+\end{figure}
+
+De acordo com os resultados apresentados, pode-se observar que diariamente ocorre diversos tipos de ataques, e grande parte dos administradores não possuem conhecimento de onde vem esses ataques. Isso ficou claro, pois um serviço emulado com vulnerabilidade foi disponibilizado e o mesmo sofreu diversos ataques que vinham de diversos lugares do mundo, principalmente da China. E isso não foi difícil de resolver, pois a partir do momento em que o Sistema de Detecção de Intrusão foi ligado, a quantidade de intrusões foram reduzidas, o que demonstra que uma simples implementação de um ambiente seguro pode ajudar a proteger uma rede contra ataques.
+
+Outro resultado aqui apresentado, foram as combinações de senhas e usuários utilizadas, percebe-se que muitos administradores ou usuários ainda utilizam o padrão \textit{out of the box}, ou seja, as configurações que um equipamento ou serviço disponibiliza pronto para o uso, como um serviço que vem com as senhas padrões de fábrica por exemplo.
+
+Vale destacar que a proposta aqui apresentada, seria de muita importância para administradores de redes implementarem sistemas com mais segurança, principalmente em ambientes corporativos, onde grande parte dos ataques são direcionados e dados vazados. Outro ponto importante é a conscientização de usuários utilizarem senhas mais seguras.
+
+Sendo assim, essa pesquisa teve o desafio de demonstrar que ataques podem e são realizados por indivíduos mal-intencionados diariamente, e que medidas de segurança devem e precisam serem adotadas por administradores, pois vulnerabilidade e brechas resultam em ataques.

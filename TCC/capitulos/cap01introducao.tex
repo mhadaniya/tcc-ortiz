@@ -1,46 +1,44 @@
 \chapter{INTRODUÇÃO}
 \textit{Honeypots} são recursos computacionais implantados em uma rede de computadores para serem comprometidos, atacados ou sondados. Com isso é possível obter o levantamento das técnicas que indivíduos mal-intencionados utilizam para se apossarem da rede ou do sistema operacional comprometido. Eles podem ser classificados de acordo com seu nível de interação: baixa, média ou alta interatividade.
 
-Desta forma, é possível implantar esses sistemas juntamente com Sistemas de Detecção de Intrusão, que são técnicas utilizadas com um conjunto de ferramentas que visam descobrir se uma rede possui ou não tentativas de acessos não autorizados, sejam eles de invasores ou até mesmo de funcionários mal-intencionados.
+Desta forma, é possível implantar esses sistemas juntamente com Sistemas de Detecção de Intrusão, que são técnicas utilizadas com um conjunto de ferramentas que visam descobrir se uma rede possui ou não tentativas de acessos não autorizados.
 
-Diante da alta tecnologia que o mercado dispõe, um fator que permanece em evidência é a importância do administrador de rede em um ambiente corporativo. Frequentemente é observado que em alguns ambientes ainda faltam segurança durante o tráfego de dados, essa segurança muito das vezes são deixadas de lado por parte desse profissional e alguns dos fatores que implicam à isso são a falta de tempo, falta de orçamento ou falta de conhecimento.
+Diante da alta tecnologia que o mercado dispõe, um fator que permanece em evidência é a importância do administrador de rede em um ambiente corporativo. Frequentemente é observado que em alguns ambientes ainda faltam segurança durante o tráfego de dados, e essa segurança as vezes são deixadas de lado por parte desse profissional, onde alguns dos fatores que implicam essa decisão é a falta de tempo, falta de orçamento ou falta de conhecimento.
 
-Portanto, para esse trabalho buscou-se reunir informações com o propósito de responder ao seguinte problema de pesquisa: De que maneira a aplicação de \textit{Honeypots} de baixa interatividade, juntamente com Sistemas de Detecção de Intrusão auxiliam na implantação de sistemas de segurança em ambientes corporativos?
+Portanto, para esse trabalho buscou-se reunir informações com o propósito de responder ao seguinte problema de pesquisa: De que maneira a aplicação de \textit{Honeypots}, juntamente com Sistemas de Detecção de Intrusão auxiliam na implantação de sistemas de segurança em ambientes corporativos?
 
-O objetivo da implantação de \textit{Honeypots} juntamente com Sistemas de Detecção de Intrusão visa auxiliar profissionais de rede implantarem esses sistemas para a melhoria da segurança do ambiente. Isso porque medidas poderão ser tomadas antecipadamente quando um indivíduo mal-intencionado estiver atacando a rede. Um novo cenário também poderá ser implantado a partir da implementação de \textit{Honeypots} de baixa interatividade, para que o mesmo possa auxiliar a minimizar problemas relacionados a área de segurança, e também um Sistema Detector de Intrusões, para detectar tentativas de intrusões. Com essa combinação de técnicas será possível obter informações provenientes de uma tentativa de ataque a organização ou ambiente implementado.
+O objetivo da implantação de \textit{Honeypots} juntamente com Sistemas de Detecção de Intrusão visa auxiliar profissionais de rede implantarem esses sistemas para a melhoria da segurança do ambiente. Isso porque medidas poderão ser tomadas antecipadamente quando um indivíduo mal-intencionado estiver atacando uma rede. Além da implementação de um \textit{Honeypot}, um Sistema Detector de Intrusões, poderá detectar tentativas de intrusões. Com essa combinação de técnicas será possível obter informações provenientes de uma tentativa de ataque à organização ou ambiente implementado.
 
-A confiabilidade na segurança das informações de uma empresa nos dias de hoje tem um valor significativo dentro da organização. 
-
-Como o surgimento de novas tecnologias no mercado sempre trás consigo novas vulnerabilidades, brechas podem ser exploradas para novos tipos de ataques. Esses ataques são criados com o intuito de adquirir por meios não legais informações das organizações, quebrando assim o paradigma de confiabilidade na segurança dos dados. Esses ataques são criados e planejados de maneira organizada e sofisticada, onde a defesa do administrador da rede ficará ainda mais complicada caso não use meios para prevenir esses tipos de ataques.
+A confiabilidade na segurança das informações de uma empresa nos dias de hoje tem um valor significativo dentro da organização. Com o surgimento de novas tecnologias no mercado, consigo são trazidas novas vulnerabilidades e brechas que podem ser exploradas para novos tipos de ataques. Esses ataques são criados com o intuito de adquirir por meios não legais informações das organizações, quebrando assim o paradigma de confiabilidade na segurança dos dados. Esses ataques são criados e planejados de maneira organizada e sofisticada, onde a defesa do administrador da rede ficará ainda mais complicada caso não use meios para prevenção a esses tipos de ataques.
 
 Para tanto, as organizações precisam se posicionar de alguma maneira, procurando ter ciência de quando sua manutenção e investimento será viável e necessária. Nesse contexto citado, a proposta desse trabalho visa apresentar conceitos, definições e ferramentas necessárias para esse tipo de tomada de decisão.
 
-Para o desenvolvimento do trabalho foram utilizadas pesquisas bibliográficas, além do estudo de caso. A pesquisa bibliográfica baseou-se em publicações científicas da área de segurança da informação. O estudo de caso foi desenvolvido na empresa XYZ de tecnologia. É um estudo exploratório, pois a organização possui um certo grau de informalidade, sendo assim, necessário investigar toda a realidade que a infraestrutura de rede se encontra, afim de obter dados e informações para o planejamento do estudo.
+Para o desenvolvimento do trabalho foram utilizadas pesquisas bibliográficas, além do estudo de caso. A pesquisa bibliográfica baseou-se em publicações científicas da área de segurança da informação. O estudo de caso foi desenvolvido na empresa Big Informática. É um estudo exploratório, pois a organização possui um certo grau de informalidade, sendo assim, necessário investigar toda a realidade que a infraestrutura de rede se encontra, afim de obter dados e informações para o planejamento do estudo.
 
-O trabalho de conclusão de curso esta estruturando em seis capítulos. No primeiro a introdução acerca de \textit{Honeypots}. No segundo capítulo é apresentado a metodologia aplicada no trabalho. No terceiro capítulo é o referencial teórico, onde será apresentado os aspectos de segurança da informação, detalhando alguns dos principais tipos de ameaças, será apresentado também quais as motivações que levam um invasor a invadir uma rede, suas motivações e seus verdadeiros alvos. Também será apresentado detalhadamente o uso de Sistemas de Detecção de Intrusão, e será mostrado estratégias utilizadas para criação de \textit{Firewalls}. Por fim ele apresenta os \textit{Honeypots}, introduzindo um breve histórico e demais itens que compõem a sua classificação. É apresentado as vantagens e desvantagens ao utliza-lo. O quarto capítulo caracteriza o estudo de caso, com a análise da organização de estudo, envolvendo os demais itens que compõem a empresa XYZ de tecnologia, e também as técnicas que foram realizadas na mesma, afim de criar um sistema que auxilie os administradores de rede a implantar sistemas de segurança utilizando \textit{Honeypots} de baixa interatividade juntamente com Sistemas de Detecção de Intrusão. No sétimo capítulo é mostrado os dados e informações obtidas com o presente estudo realizado. E por fim no oitavo capítulo é apresentado a conclusão do trabalho.
+O trabalho de conclusão de curso esta estruturando em seis capítulos. No primeiro a introdução acerca de \textit{Honeypots}. No segundo capítulo é apresentado a metodologia aplicada no trabalho. No terceiro capítulo é o referencial teórico, onde será apresentado os aspectos de segurança da informação, detalhando alguns dos principais tipos de ameaças, será apresentado também quais as motivações que levam um invasor a invadir uma rede, suas motivações e seus verdadeiros alvos. Também será apresentado detalhadamente o uso de Sistemas de Detecção de Intrusão, e será mostrado estratégias utilizadas para criação de \textit{Firewalls}. Por fim ele apresenta os \textit{Honeypots}, introduzindo um breve histórico e demais itens que compõem a sua classificação. É apresentado as vantagens e desvantagens ao utiliza-los. O quarto capítulo caracteriza o estudo de caso, com a análise da organização de estudo, envolvendo os demais itens que compõem a empresa Big Informática, e também as técnicas que foram realizadas na mesma, afim de criar um sistema que auxilie os administradores de rede a implantar sistemas de segurança utilizando \textit{Honeypots} juntamente com Sistemas de Detecção de Intrusão. No quinto capítulo é mostrado os dados e informações obtidas com o presente estudo realizado. E por fim no sexto capítulo é apresentado a conclusão do trabalho.
 
 \section{Justificativa}
-Diante do surgimento de novas tecnologia no mercado, é necessário que medidas e técnicas de segurança sejam adotadas por profissionais da área de segurança como medidas para prevenção nas informações, isso porque com elas são trazidas novas vulnerabilidades e brechas que resultam em novos tipos de ataques realizados por indivíduos mal-intencionado.
+Diante do surgimento de novas tecnologia no mercado, é necessário que medidas e técnicas de segurança sejam adotadas por profissionais da área de segurança como medidas para prevenção nas informações, isso porque com elas são trazidas novas vulnerabilidades e brechas que resultam em novos tipos de ataques realizados por indivíduos mal-intencionados.
 
-Para tanto, as organizações precisam se posicionar e adotar medidas de segurança para que suas informações não caiam em mãos de indivíduos mal-intencionado.
+Para tanto, as organizações precisam se posicionar e adotar medidas de segurança para que suas informações não caiam em mãos de indivíduos mal-intencionados.
 
-O que impulsionou a realização deste trabalho foi compreender que a utilização de \textit{Honeypots} de baixa interatividade, com o auxilio de Sistemas de Detecção de Intrusão em si, além de ser de tamanha contribuição para as organizações que visam segurança em seu ambiente, mas que não possuem tantos recursos para investimento em sistemas mais sofisticados, e também que seu estudo é de suma importância para auxiliar profissionais, sejam eles profissionais da área de segurança ou acadêmicos que desejam adquirir conhecimento acerca do tema. É apresentado conceitos, definições e ferramentas necessárias para implementação de sistemas de segurança com base nos princípios da Segurança da Informação.
+O que impulsionou a realização deste trabalho foi compreender que a utilização de \textit{Honeypots}, com o auxilio de Sistemas de Detecção de Intrusão, além de ser de tamanha contribuição para as organizações que visam segurança em seu ambiente, mas que não possuem tantos recursos para investimento em sistemas mais sofisticados, também o seu estudo é de suma importância para auxiliar profissionais, sejam eles profissionais da área de segurança ou acadêmicos que desejam adquirir conhecimento acerca do tema.
 
 \section{Delimitação do Tema}
-Este projeto de pesquisa delimitou-se em colher informações sobre de que maneira a aplicação de \textit{Honeypots} de baixa interatividade, juntamente com Sistemas de detecção de Intrusão auxiliam profissionais de rede na implantação de sistemas de segurança em ambientes corporativos, tendo como referência a empresa XYZ de tecnologia, situada na cidade de Ibiporã-PR.
+Este projeto de pesquisa delimitou-se em colher informações sobre de que maneira a aplicação de \textit{Honeypots}, juntamente com Sistemas de detecção de Intrusão auxiliam profissionais de rede na implantação de sistemas de segurança em ambientes corporativos, tendo como referência a empresa Big Informática, situada na cidade de Ibiporã-PR.
 
 \subsection{Formulação do Problema} %%Inserir subseção (nível 3)
-Portanto, buscou-se reunir informações com o propósito de responder ao seguinte problema de pesquisa: De que maneira a aplicação de \textit{Honeypots} de baixa interatividade, juntamente com Sistemas de Detecção de Intrusão auxiliam profissionais de rede na implantação de sistemas de segurança em ambientes corporativos?
+Portanto, buscou-se reunir informações com o propósito de responder ao seguinte problema de pesquisa: De que maneira a aplicação de \textit{Honeypots}, juntamente com Sistemas de Detecção de Intrusão auxiliam profissionais de rede na implantação de sistemas de segurança em ambientes corporativos?
 
 \subsection{Hipótese}
-A teoria é que a dificuldade na implantação de sistemas com mais segurança, podem ser revolvidos com a aplicação em conjunto de \textit{Honeypots} de baixa interatividade e Sistemas de Detecção de Intrusão.
+A teoria é que a dificuldade na implantação de sistemas mais sofisticados e com mais segurança, podem ser revolvidos com a aplicação em conjunto de \textit{Honeypots} e Sistemas de Detecção de Intrusão.
 
 \section{Objetivos}
 
 \subsection{Objetivo Geral}
-O presente trabalho tem como objetivo geral verificar de que maneira a aplicação de \textit{Honeypots} de baixa interatividade, juntamente com Sistemas de Detecção de Intrusão auxiliam na implementação de maior segurança das informações dentro de uma organização.
+O presente trabalho tem como objetivo geral verificar de que maneira a aplicação de \textit{Honeypots}, juntamente com Sistemas de Detecção de Intrusão auxiliam na implementação de maior segurança das informações dentro de uma organização.
 
-A finalidade de apresentar a vantagem quando utiliza-se desses sistemas, é a melhoria da segurança no ambiente, e o conhecimento de técnicas e métodos que são utilizadas por indivíduos mal-intencionados, afim de mostrar para os profissionais dessa área o perfil desses indivíduos, para que os mesmos possam tomar as devidas medidas de segurança na empresa XYZ de tecnologia.
+A finalidade de apresentar a vantagem quando utiliza-se desses sistemas, é a melhoria da segurança no ambiente, e o conhecimento de técnicas e métodos que são utilizadas por indivíduos mal-intencionados, afim de mostrar para os profissionais dessa área o perfil desses indivíduos, para que os mesmos possam tomar as devidas medidas de segurança em um ambiente corporativo.
 
 \subsection{Objetivos Específicos}
 \begin{itemize}
@@ -48,7 +46,7 @@ A finalidade de apresentar a vantagem quando utiliza-se desses sistemas, é a me
 \end{itemize}
 
 \begin{itemize}
-  \item Esquematizar um novo cenário de rede, baseado e de acordo com as configurações de uso de \textit{Honeypots} de baixa interatividade, e um Sistemas de Detecção de Intrusão.
+  \item Esquematizar um novo cenário de rede, baseado e de acordo com as configurações de uso de \textit{Honeypots}, e um Sistemas de Detecção de Intrusão.
 \end{itemize}
 
 \begin{itemize}
@@ -56,7 +54,7 @@ A finalidade de apresentar a vantagem quando utiliza-se desses sistemas, é a me
 \end{itemize}
 
 \begin{itemize}
-  \item Desenvolver a implementação de um \textit{Honeypot} de baixa interatividade, e um Sistema de Detecção de Intrusão, afim de detectar a intrusão de usuários mal-intencionados.
+  \item Desenvolver a implementação de um \textit{Honeypot}, e um Sistema de Detecção de Intrusão, afim de detectar a intrusão de usuários mal-intencionados.
 \end{itemize}
 
 \begin{itemize}

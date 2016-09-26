@@ -1,3 +1,88 @@
 \chapter{ESTUDO DE CASO}
-%% Conteudo
-AQUI NÃO SEI O QUE FAZER KKK
+Nesse capítulo serão apresentados uma caracterização de onde foi direcionada a pesquisa, e como o ambiente preparado para o desenvolvimento foi desenvolvido.
+
+\section{Caracterização da área de pesquisa}
+O ambiente corporativo para o desenvolvimento desta pesquisa foi a empresa Big Informática, situada na cidade de Ibiporã-PR. É uma empresa que está no ramo de tecnologia há mais de 15 anos e oferece a seus clientes o que há de melhor na área da informática. Atuando nos mais diversos segmentos, tais como vendas, assistência técnica, telefonia, montagem e manutenção de servidores e desenvolvimento de sistemas.
+
+A imagem a seguir retrata como é simples e de fácil entendimento a infraestrutura da empresa.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/big_1.png}
+\caption{Infraestrutura atual da empresa} 	
+\end{figure}
+
+\section{Desenvolvimento do ambiente}
+Para desenvolvimento do ambiente para utilização dos \textit{Honeypots} e dos Sistemas de Detecção de Intrusão, se viu a necessidade de utilizar o \textit{Virtual-Box} para emulação dos sistemas operacionais utilizados. O \textit{VirtualBox} é um \textit{software} utilizado para virtualização, onde o mesmo permite instalação de vários sistemas operacionais utilizando um único \textit{hardware}. 
+
+O primeiro passo para o desenvolvimento do trabalho, foi a criação de um Servidor de \textit{Logs}, onde foi utilizado o sistema operacional \textit{Debian Jessie 8.5} e a ferramenta de \textit{logs} \textit{Syslog-NG}. O \textit{Syslog-NG} é uma alternativa para as ferramentas \textit{Syslog} e \textit{Rsyslog}, onde em diversos sistemas operacionais baseados em \textit{Linux} utilizam como padrões de \textit{logs} do sistema. Seu uso permite coletar \textit{logs} do sistema e processá-los em tempo praticamente real, e assim entregá-los para diversos destinos, como por exemplo um servidor de \textit{logs}.
+
+O objetivo desse servidor foi definir uma estrutura de logs personalizada, diferente do padrão, e armazenar em um servidor todos os \textit{logs} gerados pelo cliente. Caso algum sistema viesse a ser comprometido durante esse estudo, e o atacante apagasse os \textit{logs} locais, ainda assim teríamos uma cópia em nosso servidor. No presente trabalho os sistemas operacionais que trabalham em modo cliente é o Servidor de Detecção de Intrusão e o sistema onde está implantando o \textit{Honeypot}. Em anexo segue as configurações do \textit{script} utilizado no Servidor de \textit{Logs}.
+
+Para criação do \textit{Honeypot} utilizado, foi emulado o sistema operacional denominado \textit{Honeydrive}, uma distribuição \textit{Linux} baseada no \textit{Xubuntu 12.04.4 LTS}. Essa distruibuição conta com uma variedade de \textit{Honeypots} pré-instalados, entre eles o \textit{Kippo}, o \textit{Honeypot} utilizado para esse trabalho, no qual suas principais funcionalidades serão discutidas mais a frente. A preferência por essa distribuição se deu pela facilidade de implementação, visto que diversas bibliotecas e componentes adicionais já vem pré-configurados, dispensando assim a perca de tempo com tais bibliotecas.
+
+O \textit{Kippo} é um \textit{Honeypot} de média interatividade que emula um serviço \textit{SSH} com vulnerabilidades. Ele é projetado para registrar principalmente ataques provenientes de força bruta (\textit{brute-force}), e também toda a interação do indivíduo mal-intencionado com \textit{shell}. O \textit{Kippo} conta com algumas características interessantes, entre elas a possibilidade de salvar arquivos baixados com o comando \textit{wget}, para uma possível análise. Também é possível criar um \textit{filesystem} falso, com capacidade de adicionar e remover arquivos. É possível ainda criar um conteúdo falso, por exemplo o arquivo "/etc/passwd" para que o atacante utilize o comando \textit{cat} para visualização. 
+
+A ideia principal de utilização desse \textit{Honeypot} é conseguir capturar devidos comportamentos que indivíduos mal-intencionados utilizam quando estão com um sistema operacional comprometido. Entre esses comportamentos destaca-se a interação com o \textit{shell}, quais comandos são os mais utilizados, quais as possíveis combinações de usuários e senhas utilizadas, entre outros.
+
+É importante dar destaque à esses comportamentos, pois a partir deles poderão ser criadas regras de segurança, como por exemplo detectar a localidade de um conjunto de ataques e utilizar regras do \textit{IDS} que impeçam esses ataques. 
+
+No presente estudo foi realizado um redirecionamento da porta 22 que chega da \textit{WAN} para o \textit{host} na \textit{LAN} usando a porta 2222, ou seja, foi criada uma regra na tabela NAT, onde estamos indicando que todas as requisições do protocolo TCP que chegarem da \textit{WAN} na porta 22, serão redirecionadas para a máquina onde está instalado o \textit{Kippo} utilizando a porta 2222, que é a porta padrão utilizada pelo \textit{Honeypot}. 
+
+Para isso foi utilizado a seguinte regra.
+
+\begin{lstlisting}[language=bash]
+# iptables -t nat -A PREROUTING -p tcp -d $IP_WAN --dport 2222 -j DNAT --to $IP_HOST:22
+\end{lstlisting}
+
+Para auxiliar a visualização dos \textit{logs} e eventos gerado pelo \textit{Honeypot Kippo}, uma ferramenta \textit{web} foi utilizada. \textit{Kippo-Graph} é uma ferramenta projetada para visualizar as estatísticas geradas pelo \textit{Kippo}. Ele utiliza uma biblioteca escrita em PHP para gerar gráficos chamada \textit{Libchart}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/kippo_graph.png}
+\caption{Kippo-Graph} 	
+\end{figure}
+
+O Sistema de Detecção de Intrusão utilizado foi o \textit{OSSEC}, um \textit{HIDS} que possui bastantes funcionalidades, entre elas trabalhar localmente ou servir em uma rede como cliente/servidor. É um sistema de detecção de intrusão amplamente utilizado no mundo todo. Ele trabalha com um sistema de \textit{active-response}, ou seja, para determinados tipos de ataques ele pode tomar medidas de prevenção.
+
+Ele foi posicionado para trabalhar como cliente/servidor. Nesse trabalho o mesmo foi instalado no sistema operacional \textit{Ubuntu 14.04} e está configurado como servidor, já o sistema operacional onde encontra-se o \textit{Honeypot} está configurado para trabalhar como cliente (agente).
+
+O motivo dessa implementação foi justamente utilizar o seu sistema de \textit{active-response}, ou seja, a cada alerta malicioso gerado pelos sistemas, o mesmo irá disparar respostas ativas contra possíveis ameaças.
+
+A imagem a seguir, representa a maneira como um alerta é disparado.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/ossec.png}
+\caption{\textit{Active-Response}} 	
+\end{figure}
+
+O alerta é coletado através do método \textit{ossec-logcollector}, onde passa por uma análise e decodificação realizada pelo \textit{ossec-analysisd}, em seguida esse alerta pode chamar a função \textit{ossec-maild} que envia o alerta por \textit{e-mail} para o administrador caso esteja com essa regra configurada, e por fim a função de \textit{active-response} é chamada através de \textit{ossec-execd}.
+
+O \textit{OSSEC} também permite a utilização de um processo denominado verificação de integridade. Onde periodicamente é verificado se um arquivo ou diretório foi alterado. Diversos tipos de ataques deixam rastros e sempre modificam o sistema operacional de alguma maneira. A verificação de integridade, conhecida como \textit{syscheck} permite que de tempo em tempo ocorra uma verificação nesses arquivos, detectando se ocorreu ou não alterações.
+
+\begin{lstlisting}[language=XML]
+<syscheck>
+     <directories check_all= "yes" > /etc,/usr/bin,/usr/sbin </directories>
+</syscheck>
+\end{lstlisting}
+
+Junto com o \textit{OSSEC} foi instalado em um servidor \textit{web} o \textit{Analogi}, que é uma interface gráfica para melhor análise de \textit{logs} gerados pelo \textit{OSSEC}. Em anexo, encontra-se o \textit{script} de configuração utilizado no Servidor de Detecção de Intrusão.
+
+%\begin{figure}[!h]
+%\centering
+%\includegraphics[width = 15cm, height = 6cm]{figuras/analogi.png}
+%\caption{\textit{AnaLogi}} 	
+%\end{figure}
+Por fim, foi instalado o \textit{Postfix} para o envio de \textit{e-mails} de alertas gerados pelo Sistema de Detecção de Intrusão. O \textit{Postfix} é uma alternativa ao \textit{Sendmail}. É um agente de transferência de \textit{e-mails} e seu uso foi devido diversos fatores, entre eles, melhor desempenho, facilidade de configuração e manutenção. Uma dificuldade encontrada foi o fato de não termos um servidor de \textit{e-mail}, e com o \textit{Postfix} é possível fazer um \textit{relay} utilizando o \textit{Gmail}.
+
+Após todas as instalações e configurações o ambiente ficou da seguinte maneira.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width = 15cm]{figuras/big_2.png}
+\caption{\textit{Infraestrutura após as implementações}} 	
+\end{figure}
+
+
+
